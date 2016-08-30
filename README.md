@@ -2,6 +2,10 @@
 
 A collection of node.js scripts for scraping Bing.
 
+### Installation
+
+Clone to where you want to use it, then `npm install` and you call whatever scripts you want from that directory.
+
 ## ```site_to_caches.js```
 
 This script is similar to ```site_to_urls.js``` but instead returns the cached links for results (if available).

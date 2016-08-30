@@ -7,8 +7,8 @@ const args = process.argv;
 let arg = '';
 
 if (args.length !== 3 || args[2].indexOf('http:') > -1 || args[2].indexOf('https:') > -1) {
-    console.log("Usage: node site_to_urls.js [website without protocol prefix]");
-    console.log("i.e.:  node site_to_urls.js example.com");
+    console.log("Usage: node site_to_caches.js [website without protocol prefix]");
+    console.log("i.e.:  node site_to_caches.js example.com");
     process.exit(0);
 } else {
     arg = args[2];
